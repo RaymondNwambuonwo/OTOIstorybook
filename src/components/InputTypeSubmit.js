@@ -1,7 +1,7 @@
 import React from 'react';
-import './InpSub.css'
+import './InputTypeSubmit.css'
 
-const InpSub = (props) => {
+const InputTypeSubmit = (props) => {
   let classList = ''
   let types = ['new', 'delete', 'edit', 'save']
   
@@ -16,4 +16,4 @@ const InpSub = (props) => {
   )
 }
 
-export default InpSub;
+export default InputTypeSubmit;
