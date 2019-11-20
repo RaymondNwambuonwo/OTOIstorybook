@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react';
 import TxtField from './TxtField';
 import Checkboxes from './Checkboxes'
 import InpSub from './InpSub';
+import Button from './Button';
 
 storiesOf('Input Type Submit Buttons', module)
   .add('New', () => <InpSub label="New EVENT" type="new" />)
@@ -15,3 +16,6 @@ storiesOf('Text Fields', module)
 
 storiesOf('Check Boxes', module)
   .add("Blue Check Box", () => <Checkboxes color='blue' />)
+
+storiesOf('Simple Buttons', module)
+  .add("Blue Button", () => <Button label="ACTION"/>)
