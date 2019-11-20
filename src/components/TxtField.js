@@ -1,7 +1,7 @@
 import React from 'react';
-import './Input.css'
+import './TxtField.css'
 
-const Input = (props) => {
+const TxtField = (props) => {
   let classList = ''
   let sizes = ['default', 'ml', 'l']
 
@@ -18,4 +18,4 @@ const Input = (props) => {
   )
 }
 
-export default Input;
+export default TxtField;

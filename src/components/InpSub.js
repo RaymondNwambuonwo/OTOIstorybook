@@ -1,7 +1,7 @@
 import React from 'react';
-import './Button.css'
+import './InpSub.css'
 
-const Button = (props) => {
+const InpSub = (props) => {
   let classList = ''
   let types = ['new', 'delete', 'edit', 'save']
   
@@ -16,4 +16,4 @@ const Button = (props) => {
   )
 }
 
-export default Button;
+export default InpSub;
